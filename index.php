@@ -29,6 +29,7 @@ spl_autoload_register('\\Imooc\\Loader::autoload');
 //}
 //$page->setStrategy($strategy);
 //$page->index();
+//testtesttest
 $event = new Imooc\Event();
 $event->addObserver(new Imooc\Observer1());
 $event->trigger();
